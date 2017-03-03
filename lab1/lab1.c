@@ -9,8 +9,8 @@ int main()
     char mas_glas[3] = {'a','e','i'};
     char mas_sogl[7] = {'b','c','d','f','g','h','j'};
     char mas1[10], mas2[10], mas3[10];
-    int i1, i2, i3;
-    i1 = i2 = i3 = 0;
+    int i1, i2, i3, i4;
+    i1 = i2 = i3 = i4 = 0;
     int fd;
     
     while(1) {
@@ -22,6 +22,8 @@ int main()
 		break;	
 	    if(fd == 3 && i3 < 10)
 		break;
+	    if(fd == 4 && i4 < 10 && ((!i1 && !i2 && !i3) || (i1 == 10 && i2 == 10 && i3 == 10)))
+		break;	
 	}
 	switch(fd){
 	    case 1: {
@@ -31,22 +33,29 @@ int main()
 		    }
 	    case 2: {
 			for (int i = 0; i < 3; i++) {
-			    if (mas[i2] == mas_glas[i]) 
+			    if (mas[i2] == mas_glas[i]) {
 				mas2[i] = mas[i2];
+			    }
 			}
 			i2++;
 			break;
 		    }
 	    case 3: {
 			for (int i = 0; i < 7; i++) {
-			    if (mas[i3] == mas_sogl[i])
+			    if (mas[i3] == mas_sogl[i]) {
 				mas3[i] = mas[i3];
+			    }
 			}
 			i3++;
 			break;
 		    }
+	    case 4: {
+			mas[i4] = '*';
+			i4++;
+			break;
+		    }
 	}
-	if (i1 == 10 && i2 == 10 && i3 == 10)
+	if (i1 == 10 && i2 == 10 && i3 == 10 && i4 == 10)
 	    break;
     }
     printf("mas1 = ");
@@ -62,6 +71,12 @@ int main()
     
     for (int i = 0; i < 7; i++) {
 	printf("%c", mas3[i]);
+    }
+    
+    printf("\nmas = ");
+    
+    for (int i = 0; i < 10; i++) {
+	printf("%c", mas[i]);
     }
     
     return 0;
