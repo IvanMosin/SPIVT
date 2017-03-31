@@ -1,0 +1,112 @@
+Asynchronous pipeline.
+task: 10000
+80061
+79785
+80076
+80095
+80247
+Total number clock cycles for pipeline: 83714
+
+=====================================
+Asynchronous pipeline.
+task: 10
+79
+76
+70
+Total number clock cycles for pipeline: 0.00088
+
+=====================================
+Asynchronous pipeline.
+task: 10000
+Asynchronous pipeline.
+task: 10000
+79871
+79960
+79835
+Total number clock cycles for pipeline: 1.20569
+
+=====================================
+Asynchronous pipeline.
+task: 10000
+79920
+79860
+79954
+79949
+Total number clock cycles for pipeline: 1.2012
+
+=====================================
+Asynchronous pipeline.
+task: 10000
+80198
+79779
+79943
+79885
+79809
+Total number clock cycles for pipeline: 1.19521
+
+=====================================
+Asynchronous pipeline.
+task: 10000
+79883
+79910
+79790
+80009
+79884
+79902
+Total number clock cycles for pipeline: 1.19269
+
+=====================================
+Asynchronous pipeline.
+task: 10000
+79854
+79938
+80159
+80077
+79875
+80093
+79994
+Total number clock cycles for pipeline: 1.18879
+
+=====================================
+Asynchronous pipeline.
+task: 10000
+80225
+80154
+80003
+79930
+80037
+79953
+79954
+80027
+Total number clock cycles for pipeline: 1.18631
+
+=====================================
+Asynchronous pipeline.
+task: 10000
+79797
+79905
+80063
+79862
+79930
+79838
+80172
+79861
+79887
+Total number clock cycles for pipeline: 1.18669
+
+=====================================
+Asynchronous pipeline.
+task: 10000
+80224
+80100
+79995
+80313
+80170
+80067
+80036
+79925
+79962
+80108
+Total number clock cycles for pipeline: 1.18409
+
+=====================================
