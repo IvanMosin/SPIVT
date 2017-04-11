@@ -1,1 +1,8 @@
 language: C
+script: /lab1/make
+        /lab2/make
+        /lab3/make
+        /lab4/make
+        /lab5/make
+        /lab6/make
+        /lab7/make
